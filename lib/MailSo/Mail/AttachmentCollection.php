@@ -104,7 +104,7 @@ class AttachmentCollection extends \MailSo\Base\Collection
 		return $this->MapList(function ($oAttachment) {
 			if ($oAttachment)
 			{
-				return array('fileName"'=>$oAttachment->FileName(true), 'mime'=>$oAttachment->MimeType());
+					return array('fileName'=>$oAttachment->FileName(true), 'mime'=>$oAttachment->MimeType(), 'title'=> $oAttachment->FileName(true));
 			}
 
 			return null;
