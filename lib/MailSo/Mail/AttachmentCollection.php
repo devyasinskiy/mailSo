@@ -95,4 +95,19 @@ class AttachmentCollection extends \MailSo\Base\Collection
 
 		return \is_array($aList) ? \count($aList) : 0;
 	}
+	
+		/**
+	 * @return array
+	 */
+	public function SpecData()
+	{
+		return $this->MapList(function ($oAttachment) {
+			if ($oAttachment)
+			{
+				return array($oAttachment->FileName(true), $oAttachment->MimeType());
+			}
+
+			return null;
+		});
+	}
 }
