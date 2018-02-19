@@ -3,12 +3,12 @@
 	"version": "0.7.9-beta",
 	"description": "The PHP mail framework.",
 	"keywords": ["mail", "imap", "smtp", "framework"],
-	"homepage": "https://github.com/devyasinskiy/mailso",
+	"homepage": "http://github.com/detochko/MailSo",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Yasinskiy Ivan",
-			"email": "dev.yasinskiy@gmail.com
+			"email": "dev.yasinskiy@gmail.com"
 		}
 	],
 	"require": {
