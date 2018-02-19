@@ -1,6 +1,6 @@
 {
 	"name": "devyasinskiy/mailso",
-	"version": "1.0.1",
+	"version": "0.7.9-beta",
 	"description": "The PHP mail framework.",
 	"keywords": ["mail", "imap", "smtp", "framework"],
 	"homepage": "https://github.com/devyasinskiy/mailso",
