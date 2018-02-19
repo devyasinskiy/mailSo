@@ -1,14 +1,14 @@
 {
-	"name": "intelogie/mailso",
-	"version": "0.7.9-beta",
+	"name": "devyasinskiy/mailso",
+	"version": "1.0.1-beta",
 	"description": "The PHP mail framework.",
 	"keywords": ["mail", "imap", "smtp", "framework"],
-	"homepage": "http://github.com/detochko/MailSo",
+	"homepage": "https://github.com/devyasinskiy/mailso",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Usenko Timur",
-			"email": "usenko.timur@gmail.com"
+			"name": "Y d",
+			"email": "dev.yasinskiy@gmail.com
 		}
 	],
 	"require": {
